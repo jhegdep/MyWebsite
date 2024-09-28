@@ -40,6 +40,22 @@ Support & Documentation:
 ![Confluence](https://img.shields.io/badge/confluence-%23172BF4.svg?style=for-the-badge&logo=confluence&logoColor=white) 
 ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
 <br>
+
+## 📫 How to Reach Me
+
+Feel free to connect with me on LinkedIn or check out my work here on GitHub. I'm always open to discussing new ideas, collaborations, or potential job opportunities!
+
+- **LinkedIn:** [www.linkedin.com/in/iphegde](#)
+- **GitHub:**   [https://github.com/iphegde](#)
+- **Email:**    [prasanna_hegde@outlook.com](#)
+
+## 📚 Blog
+
+I occasionally write about AI, ML, and other tech topics on my blog. Check it out for insights, tutorials, and more!
+
+- **Blog:** [www.iphegde.com](#)
+<br>
+
 <!---
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=iphegde&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
