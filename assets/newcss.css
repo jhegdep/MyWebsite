@@ -405,6 +405,8 @@ img {
   margin-bottom: 10px;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
+  height: 25px;
+  font-size: 0.80rem;
 }
 
 
@@ -768,7 +770,8 @@ img {
   padding: 0 1.5rem;
 }
 .portfolio__img {
-  width: 310px;
+  width: 250px;
+  height: 300px;
   border-radius: 0.5rem;
   justify-self: center;
 }
