@@ -363,7 +363,35 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 .home__description {
-  margin-bottom: var(--mb-2);
+  /* margin-bottom: var(--mb-2); */
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  width: 100%; /* Full width on small screens */
+  max-width: 100%; /* Prevents going out of range on smaller screens */
+  overflow-x: hidden; /* Ensures no horizontal scrollbar */
+  text-align: justify; /* Justify the text */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .home__description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+}
+
+/* Fluid width for larger screens */
+@media (min-width: 400px) {
+  .home__description {
+    font-size: 1rem;
+    line-height: 1.6;
+    /* Fluid width with clamp */
+    max-width: clamp(350px, 50vw, 800px);
+    margin: 0 auto; /* Centered text */
+    padding-left: 10px; /* Add small padding to prevent text from touching edges */
+    padding-right: 10px;
+  }
 }
 
 .portfolio__scroll {
@@ -785,6 +813,17 @@ img {
 .portfolio__button:hover .button__icon {
   transform: translateX(0.25rem);
 }
+
+.portfolio__video {
+  float: right; /* Aligns the video to the left */
+  margin-right: 100px; /* Adds space between the video and text */
+  justify-self: right;
+}
+
+.portfolio__data {
+  overflow: hidden; /* Ensures the text wraps properly beside the video */
+}
+
 .swiper-button-prev::after,
 .swiper-button-next::after {
   content: "";
@@ -1505,3 +1544,5 @@ td {
     margin-bottom: 10px;
   }
 }
+
+
